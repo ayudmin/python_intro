@@ -5,3 +5,5 @@ def describe_pet(animal_type, pet_name):
 
 
 describe_pet('hamster', 'harry')
+
+describe_pet('dog', 'willie')
