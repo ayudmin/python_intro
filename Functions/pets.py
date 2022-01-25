@@ -6,4 +6,7 @@ def describe_pet(animal_type, pet_name):
 
 describe_pet(animal_type='hamster', pet_name='harry')
 
+# order doesnt change
+describe_pet(pet_name='harry', animal_type='hamster')
+
 describe_pet('dog', 'willie')
