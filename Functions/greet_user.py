@@ -1,8 +1,10 @@
 # Greeting a user in python
+# Passing Information to a Function
 
-
-def greet_user():
+def greet_user(username):
     """ Display a simple greeting """
-    print('Hello!')
+    print('Hello, ' + username.title() + '!')
 
-greet_user()
+greet_user('Ayume')
+greet_user('Francis')
+greet_user('Ayume Francis')
