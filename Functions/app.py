@@ -33,3 +33,15 @@ def right_justify(s):
 
 
 right_justify('francis')
+
+
+def print_spam(t):
+    print(t + " spam")
+
+
+def do_twice(f,v):
+    f(v)
+    f(v)
+
+
+do_twice(print_spam, 'hello')
