@@ -19,3 +19,17 @@ def repeat_lyrics():
 
 
 repeat_lyrics()
+
+
+def print_bruce(bruce):
+    print(bruce)
+
+
+print_bruce('spam ' * 4)
+
+
+def right_justify(s):
+    print("                                                              " + s)
+
+
+right_justify('francis')
