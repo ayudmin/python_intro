@@ -1,7 +1,10 @@
-def flname(first, last):
+def firstnlast(first, last):
     return first + ' ' + last
 
-result1 = flname('Ayume','Francis')
+
+result1 = firstnlast('Ayume', 'Francis')
 print(result1)
-result2 = flname('Joe','Soap')
+result2 = firstnlast('Joe', 'Soap')
 print(result2)
+
+
