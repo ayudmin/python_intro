@@ -16,3 +16,18 @@ print(message)
 
 message = 'Hello Python variables'
 print(message)
+
+"""
+    Naming variables ie can contain numbers, letters and underscore. Can start wit a letter or underscore
+    but not number. Spaces are not allowed but underscores can be used
+"""
+
+_my_name = 'Good naming convention'
+
+name_my = 'Good'
+
+my2002_birthday = '2022'
+
+_2021 = 'Not good yr'
+
+print(_my_name, name_my, my2002_birthday, _2021)
