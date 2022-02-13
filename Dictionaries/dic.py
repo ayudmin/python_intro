@@ -15,10 +15,18 @@ thisdic = {
 
 new_model = thisdic['model']
 model_year = thisdic['year']
-print("You got the " + new_model + " model " + "in " + str(model_year))
+# print("You got the " + new_model + " model " + "in " + str(model_year))
 
 thisdic['color'] = 'red'
 thisdic['price'] = 6800
 
-print(thisdic)
+# print(thisdic)
 
+campany = {}
+
+campany['name'] = 'Eirmonshop'
+campany['worth'] = 55000
+campany['year_established'] = 2022
+campany['owner'] = 'Ayume'
+
+print(campany)
