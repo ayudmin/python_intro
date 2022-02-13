@@ -29,4 +29,10 @@ campany['worth'] = 55000
 campany['year_established'] = 2022
 campany['owner'] = 'Ayume'
 
-print(campany)
+# print(campany)
+owner = campany['owner']
+campany_name = campany['name']
+print(owner +  " is the owner of " + campany_name + " in 2022.")
+campany['new_owner'] = 'Francis'
+new_owner = campany['new_owner']
+print(owner +  " was the owner of " + campany_name + " in 2022. " + "But now " + new_owner + ' is the current owner.')
