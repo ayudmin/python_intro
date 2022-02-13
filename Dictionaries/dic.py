@@ -7,8 +7,18 @@ alien_0 = {'color': 'green', 'points': 5}
 thisdic = {
     "brand": "Ford",
     "model": "Mustang",
-    "year": 1964
+    "year": 2022
 }
 
 
-print(thisdic['model'])
+# print(thisdic['model'])
+
+new_model = thisdic['model']
+model_year = thisdic['year']
+print("You got the " + new_model + " model " + "in " + str(model_year))
+
+thisdic['color'] = 'red'
+thisdic['price'] = 6800
+
+print(thisdic)
+
