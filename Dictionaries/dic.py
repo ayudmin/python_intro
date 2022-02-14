@@ -41,9 +41,12 @@ del campany['worth']
 # print(campany)
 
 favourite_language = {
-    'mathew': 'Python',
-    'phil': 'Java',
-    'sarah': 'C'
+    'mathew': 'python',
+    'phil': 'java',
+    'sarah': 'c'
 }
 
-print("sarah's favourite language is " + favourite_language['sarah'] + ".")
+# print("sarah's favourite language is " + favourite_language['sarah'] + ".")
+print('\n')
+for name, language in favourite_language.items():
+    print(name.title() + "'s favourite language is " + language.title())
