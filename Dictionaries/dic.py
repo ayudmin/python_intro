@@ -10,7 +10,6 @@ thisdic = {
     "year": 2022
 }
 
-
 # print(thisdic['model'])
 
 new_model = thisdic['model']
@@ -32,11 +31,19 @@ campany['owner'] = 'Ayume'
 # print(campany)
 owner = campany['owner']
 campany_name = campany['name']
-print(owner +  " is the owner of " + campany_name + " in 2022.")
+print(owner + " is the owner of " + campany_name + " in 2022.")
 campany['new_owner'] = 'Francis'
 new_owner = campany['new_owner']
-print(owner +  " was the owner of " + campany_name + " in 2022. " + "But now " + new_owner + ' is the current owner.')
+print(owner + " was the owner of " + campany_name + " in 2022. " + "But now " + new_owner + ' is the current owner.')
 
-print(campany)
+# print(campany)
 del campany['worth']
-print(campany)
+# print(campany)
+
+favourite_language = {
+    'mathew': 'Python',
+    'phil': 'Java',
+    'sarah': 'C'
+}
+
+print("sarah's favourite language is " + favourite_language['sarah'] + ".")
