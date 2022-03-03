@@ -21,3 +21,8 @@ class Particle(object):
             " My mass is:   " + str(self.m)
         )
         print(myroar)
+
+
+new_particle = Particle()
+
+print(new_particle)
