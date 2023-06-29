@@ -34,6 +34,6 @@ print(_my_name, name_my, my2002_birthday, _2021)
 
 """   
     *****
-    Consider variables as labels to variables ie names used to label content or something
+    Consider variables as labels to something (content) ie names used to label content or something
     *****
 """
