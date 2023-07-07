@@ -16,3 +16,11 @@ first = 'Chicken'
 second = 'Chips'
 
 print(first + ' and ' + second)
+
+'This is a string.'
+
+"This is also a string."
+
+'I told my fiend, "Python is my favorite language!"'
+"One of python's strength is it's diverse and supportive community."
+
