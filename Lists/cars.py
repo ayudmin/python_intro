@@ -4,6 +4,6 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.reverse()
 print(cars)
 print(len(cars))
-print(cars[5])
+print(cars[3])
 
 
