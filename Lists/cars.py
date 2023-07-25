@@ -3,7 +3,7 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print(sorted(cars))
 cars.reverse()
 print(cars)
-
 print(len(cars))
+print(cars[5])
 
 
