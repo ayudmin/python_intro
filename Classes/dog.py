@@ -4,26 +4,25 @@ class Dog:
         self.age = age
 
     def sit(self):
-        print(f'{self.name} is sitting.')
+        print(f"{self.name} is sitting.")
 
     def roll_over(self):
-        print(f'{self.name} rolled over.')
-
-    def jump(self):
-        print(f'{self.name} jumped up.')
+        print(f"{self.name} rolled over.")
 
 
-my_dog = Dog('Lucky', 3)
-his_dog = Dog('Tom', 3)
-her_dog = Dog('Jerry', 5)
-
-
+my_dog = Dog('Willie', 6)
+print(f"My dog name is: {my_dog.name}.")
+print(f"My dog age is: {my_dog.age}.")
 my_dog.sit()
-his_dog.roll_over()
-her_dog.jump()
+print('\n')
 
-print(my_dog.name)
-print(his_dog.name)
-print(her_dog.name)
+my_dog_1 = Dog('Willie', 6)
+print(f"My dog name is: {my_dog_1.name}.")
+print(f"My dog age is: {my_dog_1.age}.")
+my_dog_1.sit()
+print('\n')
 
-
+anotherDog = Dog('papy', 2)
+print(anotherDog.name)
+print(anotherDog.age)
+my_dog.roll_over()
